@@ -1,0 +1,17 @@
+﻿@model iCalendarMVC.Models.vmEnvioMail
+@{
+    ViewBag.Title = "Envía tu mail y calendarizalo";
+}
+
+
+
+<div class="col-md-12">
+    <br /><br />
+    <h1>Pues... prueba este proyecto</h1>
+    <p>No olvides configurar las credenciales del correo en el <code>web.config</code>, de lo contrario no podrás enviar mail</p>
+    <div id="divPartialTransaccion">
+        @Html.Partial("Partials/partialEnvioMail")
+    </div>
+</div>
+
+
